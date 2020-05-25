@@ -15,9 +15,14 @@ Describes the architecture of an application
 HD
 Shows almost flawless understanding of the high level structure of an app
 
-Rails uses the MVC ( Model, View, Controller) architecture to create a webpage. The models, also known as the ActiveRecord, are the objects, in this case, users, posts, comments and images. These models include data fields and types and encloses data in the database which is Postgresql for this application. The view, also known as ActionView, is what the user sees and interacts with, the HTML, CSS and javascript. The controller, also known as ActionController, handles the decisions and processes and responds to events like user action and can make changes the views and the models.
+Rails uses the MVC ( Model, View, Controller) architecture to create a webpage. The Models, are referred to as the objects. They contain all the data related logic for the application. The Models interacts with the database, which is where the applications data is stored, and is used for creating, selecting, updating, inserting and deleting data while communicating with the applications controller which can take this data logic and data and renders it to different views. 
 
-Starting at the browser, the browser communicates to the controller which decides what to do next based on the users' actions. The controller communicates to the model when it needs to which then the using the model can communicate with the database and bring information back and sends the results to the view which will end up getting returned to the browser.
+The view is what the user sees and interacts with, the user interface logic. Usually used with the HTML, CSS and Javascript to show the visuals and the front end of the application.  The view communicates with the controller to render what parts of the models is seen by the user and when is it to be shown.
+
+
+The controller handles the decisions and processes and responds to events like user action such as input and can make changes to the views and the models. The controller processes the HTTP requests such as Get, Post, Put, Patch, Delete, etc and communicates with both the view and the model, getting data from the model and passing the data to the view.
+
+Starting at the browser, the browser communicates to the controller which decides what to do next based on the users' actions. The controller communicates to the model when it needs to which then, using the model, can communicate with the database and bring information back and sends the results to the view which is then taken by the controller and gets returned to the browser using.
 
 ## A Database management system used in web applications
 
