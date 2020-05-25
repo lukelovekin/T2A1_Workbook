@@ -2,7 +2,11 @@ Headings
 answers
 refereces
 
+## T2A1 Workbook Assignment
+
 ****ACME Corporation is looking for devs with an understanding of Rails. The following set of questions relate to this RfQ-requirement
+
+## Architecture of a typical Rails application
 
 Q1	Describe the architecture of a typical Rails application	200-300
 
@@ -11,13 +15,11 @@ Describes the architecture of an application
 HD
 Shows almost flawless understanding of the high level structure of an app
 
-## Architecture of a typical Rails application
-
 Rails uses the MVC ( Model, View, Controller) architecture to create a webpage. The models, also known as the ActiveRecord, are the objects, in this case, users, posts, comments and images. These models include data fields and types and encloses data in the database which is Postgresql for this application. The view, also known as ActionView, is what the user sees and interacts with, the HTML, CSS and javascript. The controller, also known as ActionController, handles the decisions and processes and responds to events like user action and can make changes the views and the models.
 
 Starting at the browser, the browser communicates to the controller which decides what to do next based on the users' actions. The controller communicates to the model when it needs to which then the using the model can communicate with the database and bring information back and sends the results to the view which will end up getting returned to the browser.
 
-
+## A Database management system used in web applications
 
 Q2	Identify a database management system (DBMS) commonly used in web applications (including Rails) and discuss the pros and cons of this database	150-250
 
@@ -33,6 +35,8 @@ Full discussion of the identified database, including an excellent assessment of
 
 **** ACME Corporation is very big on project management, documentation and process. This will be a key metric in their decision to award the project. The following set of questions relate to this RfQ-requirement.
 
+## Agile Project Management
+
 Q3	Discuss the implementation of Agile project management methodology	200-300
  Discuss the implementation of Agile methodology
 6.0 to >5.0 pts
@@ -40,6 +44,7 @@ HD
 Complete and detailed description of Agile methodology
 
 
+## Source Control Workflow
 
 Q4	Provide an overview and description of a standard source control workflow	100-200
 Provide an overview and description of a standard source control process
@@ -48,6 +53,7 @@ HD
 Complete and detailed description of a standard source control process
 
 
+## Software Testing Process
 
 Q5	Provide an overview and description of a standard software testing process (e.g. manual testing)	100-200
 Provide an overview and description of a standard testing process
@@ -57,7 +63,13 @@ Complete and detailed description of a standard testing process
 
 
 
+
+
+
+
 *** Having suffered several cyber attacks in the past and resultant remedial audits ACME Corporation takes compliance, security and privacy very seriously. The following set of questions relate to this RfQ-requirement.
+
+## Information Security
 
 Q6	Discuss and analyse requirements related to information system security and how they relate to the project	100-200
 Discuss and analyse requirements related to information system security
@@ -66,6 +78,7 @@ HD
 Meets D with evidence that the best option for information security was chosen
 
 
+## Protecting Information and Data
 
 Q7	Discuss common methods of protecting information and data and how you would apply them to the project	100-200
 Discuss common methods of protecting information and data
@@ -74,7 +87,7 @@ HD
 Meets D with clear documentation on the specific methods that will be used for this project to protect information and data and why these methods were chosen
 
 
-
+## Legal Obligations to Handling Data
 
 Q8	Research what your legal obligations are in relation to handling user data and how they can be met for the poroject
 Research what your legal obligations are in relation to handling user data
@@ -90,6 +103,8 @@ Meets D with evidence of discussion of findings and agreement on approach to be 
 
 *** ACME Corporation has specifically requested the app to be based on a relational database. The next set of questions relate to this RfQ-requirement.
 
+## Structural Aspects of the Relational Database Model
+
 Q9	Describe the structural aspects of the relational database model. Your description should include information about the structure in which data is stored and how relations are represented in that structure.	100-200
 Describes the structural aspects of the relational database model
 6.0 to >5.0 pts
@@ -97,6 +112,7 @@ HD
 Complete and detailed description of the structural aspects of the relational database model
 
 
+## Intengrity Aspects of the Relational Database Model
 
 Q10	Describe the integrity aspects of the relational database model. Your description should include information about the types of data integrity and how they can be enforced in a relational database.	100-200
 Describes the integrity aspects of the relational database model
@@ -105,6 +121,7 @@ HD
 Complete and detailed description of the integrity aspects of the relational database model
 
 
+## Manipulative Aspects of the Relational Database Model
 
 Q11	Describe the manipulative aspects of the relational database model. Your description should include information about the ways in which data is manipulated (added, removed, changed, and retrieved) in a relational database.	100-200
 This criterion is linked to a Learning OutcomePRG1048-3.3 - Describes the manipulative aspects of the relational database model
@@ -120,8 +137,12 @@ Complete and detailed description of the manipulative aspects of the relational 
 
 *** The efficiency of an app (i.e. site) and the algorithms used are of the utmost importance. The next set of questions relate to this RfQ-requirement.
 
+## The Workings of Two Sorting Algorithms
+
 Q12	Identify and explain the workings of TWO sorting algorithms and discuss and compare their performance/efficiency (i.e. Big O)	300-500
 
+
+## The Workings of Two Searching Algorithms
 
 Q13	Identify and explain the workings of TWO search algorithms and discuss and compare their performance/efficiency (i.e. Big O)	300-500
 
@@ -148,10 +169,12 @@ Provides a complete and detailed analysis of the efficiency of an algorithm usin
 
 *** Companies (including ACME Corporation) value previous project experience and case studies. The following set of questions relate to this RfQ-requirement.
 
+## Marketplace Website
+
 Q14	Conduct research into a marketplace website (app) and answer the following parts: 
  a. List and describe the software used by the app.
 
- This criterion is linked to a Learning OutcomeCMP1042-2.1 - Conducts research and describes the software used by an organisation (software / database)
+Conducts research and describes the software used by an organisation (software / database)
 6.0 to >5.0 pts
 HD
 Complete and detailed description of the software used by an organisation
