@@ -3,7 +3,7 @@ Q1  - https://www.tutorialspoint.com/mvc_framework/mvc_framework_introduction.ht
 Q2  - https://www.keycdn.com/blog/popular-databases
     - https://www.aalpha.net/blog/pros-and-cons-of-using-postgresql-for-application-development/
 
-Q3  -
+Q3  - https://www.greycampus.com/blog/project-management/implementing-agile-methodologies-in-traditional-project-management
 
 Q4  -
 

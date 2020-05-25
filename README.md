@@ -1,12 +1,8 @@
-Headings 
-answers
-refereces
+# T2A1 Workbook Assignment
 
-## T2A1 Workbook Assignment
+## Ruby on Rails
 
-****ACME Corporation is looking for devs with an understanding of Rails. The following set of questions relate to this RfQ-requirement
-
-## Architecture of a typical Rails application
+### Architecture of a typical Rails application
 
 Rails uses the MVC ( Model, View, Controller) architecture to create a webpage. The Model, also known by Rails as ActiveRecord, is referred to as the object. They contain all the data related logic for the application. The Models interacts with the database, which is where the application's data is stored and is used for creating, selecting, updating, inserting and deleting data while communicating with the applications controller which can take this data logic and data and renders it to different views. 
 
@@ -17,7 +13,7 @@ The controller, also known by Rails as ActionController, handles the decisions a
 
 Starting at the browser, the browser communicates to the controller which decides what to do next based on the users' actions. The controller communicates to the model when it needs to which then, using the model, can communicate with the database and bring information back and sends the results to the view which is then taken by the controller and gets returned to the browser using.
 
-## A Database management system used in web applications
+### A Database management system used in web applications
 
 PostgreSQL is a popular DBMS (Database Management System) used in a Rails web applications. DBMS', in particular PostgreSQL is a software application used to create, manage and administer databases as well as creating and modifying tables and adding and deleting data in the tables. DBMS' are an important component of most if not all software applications. Web and other Software applications write in SQL also known as Structured Query Language, this SQL sends database queries to the DBMS which will then communicate with the database.
 
@@ -27,12 +23,51 @@ PostgreSQL's is very scalable, can handle terabytes of data, supports JSON, has 
 
 Although not many, the Downsides of PostgreSQL is that it can be slower than other DBMS when handling large amounts read queries and operations and compared to other DBMS, PostgreSQL can also be more confusing to configure and documentation can be hard to find making it harder to figure out how to do something as it is not owned by one particular organisation.
 
+## Project Management, Documentations and Process.
+
+### Agile Project Management
+
+Agile comes from it projects originally, but now also in non it environments, projects and operations
+wasteful of how they spend their resources of  of time money and people
+eliminates whats not important to organisations,
+wasefull includes work delivered late, items of dubious values, processes that add little to no value and rework
+aims to benefit organisation and individuals
 
 
 
-**** ACME Corporation is very big on project management, documentation and process. This will be a key metric in their decision to award the project. The following set of questions relate to this RfQ-requirement.
+one element, important things prioritised, eliminate current activities with lith value and add new activites the do have value
+user stories (customers shoes)create herarchy of importance, essential to not important, focus efforts where add most benefit or eliminate most waste, focus on project duration and deliver important aspects first,
+ 
+ timeboxing, agile projects are fixed durations, spend fixed amount of time doing each process
+  with priorising delivers most bang for buck
 
-## Agile Project Management
+ element 2, collaborations, stakeholders, customers and suppliers need to collab form collab team,
+
+team empowerment, team members empowered to take decisions without having to refer to others, rapid progress if team is empowered and skill
+
+REWORD THIS A BIT VVVV
+agile consists of an iterative process, teams execute project phases in iterations or sprints
+most comon is a scrum, teams build priority requirements and product features into the system as per product owner and other stakeholders
+agile managers deligate high level objectives and let the team work out the best way to achieve them
+some feature
+-visual control. usign display cards, with colors and labals outline durations complexity and importance, one card for each user story or product feature
+-colocateed teams, teams work in collab improving coordintaion and communication great, efficient manner ensuring they all work in agile model best of their ability
+-adaptive control, adapt to change continualylearn from previous iteratrions and apply to the next
+-iterative development, scrum team develops product or service changes accordingly, demo by the owner
+
+Key roles
+-product owener
+
+
+
+
+learn to prioritze to business needs
+empower teams
+promote innovation and learning, act on teams ideas and prepare to accept to accept occasional failure
+
+
+build in small iterations.
+accomodate changes in product requirements next sprint
 
 Q3	Discuss the implementation of Agile project management methodology	200-300
  Discuss the implementation of Agile methodology
@@ -41,7 +76,7 @@ HD
 Complete and detailed description of Agile methodology
 
 
-## Source Control Workflow
+### Source Control Workflow
 
 Q4	Provide an overview and description of a standard source control workflow	100-200
 Provide an overview and description of a standard source control process
@@ -50,7 +85,7 @@ HD
 Complete and detailed description of a standard source control process
 
 
-## Software Testing Process
+### Software Testing Process
 
 Q5	Provide an overview and description of a standard software testing process (e.g. manual testing)	100-200
 Provide an overview and description of a standard testing process
