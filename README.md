@@ -98,18 +98,18 @@ With correct user identification, authentication and authorization methods used 
 
 ## Protecting Information and Data
 
-Similiar with the Information System Security processes, protecting information and data should be a top priority when creating a web application. Protections from security incidents where protected, sesitve and or confidential data is viewed, stolen, copied or used by anyone unauthorised to do so.
+Similiar with the Information System Security processes, protecting information and data should be a top priority when creating a web application. Protections from security incidents where protected, sensitive and or confidential data is viewed, stolen, copied or used by anyone unauthorised to do so.
 
-As a minimal for the web application, Devise, Rolify and Stripe shall be implemented throughout the app, all battle tested and commonly used in modern webpages.
+As a minimal for the web application, Devise, Rolify and Stripe shall be implemented throughout the app, all battle-tested and commonly used in modern webpages.
 
 Devise provides user authentication and can also help with authorisation as well as including features like making database authenticatable, omniauthable, creating hashed passwords abilities and other authentication tools like authentication confirmation, recoverable, registerable, rememberal, trackable, timeoutable, validatable and lockable. 
 
-Rolify comes with tools that helps allocate authorisation amongst user keeping them out of certain areas and keeping them from seeing things they don't need to.
+Rolify comes with tools that help allocate authorisation amongst user keeping them out of certain areas and keeping them from seeing things they don't need to.
 
-Stripe is a Payment Card Industry compliant method commonly used payment system used amongst websites to take payment from customers which will take responsibilty away from developer of this marketplace webpage for the protection of users payments data.
+Stripe is a Payment Card Industry compliant method commonly used payment system used amongst websites to take payment from customers which will take responsibility away from developers of this marketplace webpage for the protection of users payments data.
 
 Other specific methods to follow to apply to the project
-- Never put credentials or api keys in source code repository. 
+- Never put credentials or API keys in the source code repository. 
 - Use an External web application firewall service
 - Abuse stories to go along with the user stories when completing items in sprints to make sure certain abuse uses are though about and prevented
 - keep other admin or employee users of the web on a need to know access preventing other staff seeing things they don't need to
@@ -117,11 +117,25 @@ and the list can go on.
 
 ## Legal Obligations to Handling Data
 
+Privacy Act 1988
+australian privacy principals.
+if medium to large organisations, compay or not, individuals partnerships, unincorporated associations and trusts
+
+applys to business, not for profit organisations, clubs and associations, union and employee organisations that exceed 3mill
+
+even if not you may be caught if business or organistation provides a health sevices to another individuals and holds any health information that is not about your employees
+credit reporting bodies or business that trade in personal information.
+
+
+
+
+
+
 Q8	Research what your legal obligations are in relation to handling user data and how they can be met for the poroject
 Research what your legal obligations are in relation to handling user data
 6.0 to >5.0 pts
 HD
-Meets D with evidence of discussion of findings and agreement on approach to be used to meet legal obligations
+Meets D with evidence of discussion of findings and agreement on approach to be used to meet legal obligations 100-200
 
 
 
