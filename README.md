@@ -43,20 +43,35 @@ Scrums aim to promote, innovation, learning and rapid progress as teams are empo
 
 ### Source Control Workflow
 
-Q4	Provide an overview and description of a standard source control workflow	100-200
-Provide an overview and description of a standard source control process
-6.0 to >5.0 pts
-HD
-Complete and detailed description of a standard source control process
+Source control, also known as version control, allows us to make backups of all our source content, keeps a history, compares and views new changes, allows us to experiment with new codes and features, collaborate with others on the same piece of source, allows us to revert back to previous source states, record code changes and more.
 
+There are two types of source control, centralised and distributed. Centralised version control (Cvsc) is when source stored on a central server, each person sends their copy/changes/source to this server and after every change is made you have to access the server which can be done offline. Distributed version control (Dvcs)  is when the entire source is stored online and mirrors the source on each users system.
+
+One of the most popular versions of distributed control systems is git. Git is online, small, fast, open-source and free.
+Using git on a directory or a folder allows us to add, commit and push our source to an online git host were it is stored safely.
+After initializing a directory we can then add and commit, which is similar to saving/recording and making a note of our source at a certain time, and push(send) to our origin, which is our online git repository that is saved onto the online git host in most cases Github.
+
+To keep our main source "master branch (default branch)", clean and in working order, new branches can be created. A branch is like a pointer to the latest commit. New branches copy the master branch at the point of creation and allows the use of the source in a separate environment where features, changes, tests and more can be trialled and tested before it is merged in with the master branch and checked for merge conflicts. At any time you can revert back to a previous commit if need be as all commits are recorded. The source can be collaborated on with other users allowing them to alter code directly (usually on a branch) or allowing them to copy the repo which they can push to your repo which you can then see the changes and pull their code into yours
 
 ### Software Testing Process
 
-Q5	Provide an overview and description of a standard software testing process (e.g. manual testing)	100-200
-Provide an overview and description of a standard testing process
-6.0 to >5.0 pts
-HD
-Complete and detailed description of a standard testing process
+Manual Testing
+
+Manual testing is the process of testing without the use of automation tools. Used to find bugs in applications and software systems generally used at the start of the testing process before automated testing can even be achieved. Compared to other standards of testing, manual testing is necessary even imperative although slower, and more costly due to the time costs and man-hours that are needed to be put in to do it but does not need prior knowledge of any other software tools to be able to do and as automated testing is generally more suited more for when applications or software is more stable and further developed.
+
+Like all other methods of testing, manual testing is used to help make the application or software error-free working accordingly to its specific functional requirements. During the testing phase of software, test cases are designed which aim to achieve full software test coverage. All defects should be recorded and fixed by developers and then retested while continuously checking the quality of the system to deliver a bug-free product.
+
+The general process of manual testing involves understanding the software goals, guides and documentation and drafting test cases, reviewing them with Team Lead and client and reporting bugs during coding stage of development making sure bug fixes are re-tested and verified that they pass. 
+
+Types of manual testing processes:
+- Unit Testing, where the individual units and components if the software is tested, isolating sections of code and verifying its correctness, usually done first
+- Integration Testing, where individual units are tested as a group to expose faults in the interaction between the units.
+- System Testing, which tests the system as a whole, all components and modules integrated to make sure the system works as expected, usually done after integration testing.
+- Acceptance Testing, when a system is tested for acceptability evaluating the system's compliance with the business requirements.
+- White Box Testing, where the code/structure/design and implementation are known to the tester, choosing inputs to paths and determining appropriate outputs, testing beyond the user interface.
+- Black Box Testing, unline white box testing, is done without knowing about the code/structure/design and implementation, testing is done based entirely on software specs and requirements focusing on just the inputs and outputs without going deeper than the software plans.
+
+
 
 
 

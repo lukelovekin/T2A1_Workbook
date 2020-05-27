@@ -5,9 +5,10 @@ Q2  - https://www.keycdn.com/blog/popular-databases
 
 Q3  - https://www.greycampus.com/blog/project-management/implementing-agile-methodologies-in-traditional-project-management
 
-Q4  -
+Q4  - https://www.atlassian.com/git/tutorials/what-is-version-control
 
-Q5  -
+Q5  - https://www.guru99.com/manual-testing.html
+    - https://www.iso.org/obp/ui/#iso:std:iso-iec-ieee:29119:-1:ed-1:v1:en
 
 Q7  -
 
