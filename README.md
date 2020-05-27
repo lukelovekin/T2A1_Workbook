@@ -27,65 +27,19 @@ Although not many, the Downsides of PostgreSQL is that it can be slower than oth
 
 ### Agile Project Management
 
-Agile comes from it projects originally, but now also in non it environments, projects and operations
-wasteful of how they spend their resources of  of time money and people
-eliminates whats not important to organisations,
-wasefull includes work delivered late, items of dubious values, processes that add little to no value and rework
-aims to benefit organisation and individuals
+Agile originated with I.T project but is now used by a lot of businesses to benefit their processes and even their employees. Agile processes aim to eliminate what's not important to a company or organisation including processes that add little to no value and require rework, work that isn't delivered on time and items that aren't the main priority by creating a hierarchy of importance for the items that are the products features, requirements, user stories and progressive steps by labelling them from essential to not essential and complex they are focusing efforts to add most benefit and put aside items that don't and focusing on project duration by delivering important items first. 
 
+A common Agile development process used is called a "Scrum" which includes a number of "Sprints" which are the different iterative phases of the scrum to complete the project. A scrum includes a Scrum team, Scrum master and continuous communications with the product owner and other stakeholders.
 
+The product owner/ representative provides the clarification and the requirements for the product and can often make changes to the product as development progresses. 
 
-one element, important things prioritised, eliminate current activities with lith value and add new activites the do have value
-user stories (customers shoes)create herarchy of importance, essential to not important, focus efforts where add most benefit or eliminate most waste, focus on project duration and deliver important aspects first,
- 
- timeboxing, agile projects are fixed durations, spend fixed amount of time doing each process
-  with priorising delivers most bang for buck
+The scrum master is usually very knowledgable in the field of the scrum, a leadership role, in charge of all activities in the scrum and should provide the setup of the work environment, guide and coach their team to achieve their goals, keep the teams on track to finishing on time, keep good working relations with the stakeholders, conducts daily stand-ups and delegates the higher-level objectives to the team and the team works out how to go about achieving them and keeping them using best scrum practice and in sprint planning phase they will work with the product owner to create a  product backlog which has all the items to be completed for the product which each item will get deligated to separate teams for each sprint and redelegated for each new sprint.
 
- element 2, collaborations, stakeholders, customers and suppliers need to collab form collab team,
+The scrum teams handle the development of the product creating the items delegated to them from the product backlog by the building, coding, testing, quality control, business analysing, etc, for the project. Each team should be specialised to the items they are giving and should keep communications between other teams, self-organising and determining on other items in the backlog.
 
-team empowerment, team members empowered to take decisions without having to refer to others, rapid progress if team is empowered and skill
+As each sprint is finished, with involvement from the product owner and potentially other stakeholders, a sprint review is discussed as well as suggestions changes and any incomplete items are returned to the backlog and prioritised again for the next sprint with documents recorded on important issues, lessons learnt and other review information. 
 
-REWORD THIS A BIT VVVV
-agile consists of an iterative process, teams execute project phases in iterations or sprints
-most comon is a scrum, teams build priority requirements and product features into the system as per product owner and other stakeholders
-agile managers deligate high level objectives and let the team work out the best way to achieve them
-some feature
--visual control. usign display cards, with colors and labals outline durations complexity and importance, one card for each user story or product feature
--colocateed teams, teams work in collab improving coordintaion and communication great, efficient manner ensuring they all work in agile model best of their ability
--adaptive control, adapt to change continualylearn from previous iteratrions and apply to the next
--iterative development, scrum team develops product or service changes accordingly, demo by the owner
-
-Key roles
--product owener, represents the client or product, provides clarification on reqs for product
-
--scrum master,  responsible for amnaging all activities in teh scrum, facilitator, setups good environment, guides, facilitates and coaches each member of team about best practice followed in scrum, clears ay obstacles in project, assures scrum processes are followed diligently. Mediatior, ensure goodworking relationships between stakeholders and scrum team, daily stand up conductor, deliverying deliverable on time with good quality, focus on scrum time, expert in field of scrum, leader role, coordinating trema managment,
-
-scrum team
--handles development of product, the coding, building anmd testing for product. turning actrion items in backlog into a functional piece, meeting acceptance criteria. each a specialist in a certain area, quality control, programming, business analasyt. communicate with all other team members. self organising and determining on items in teh product backlog
-
-
-
-
-learn to prioritze to business needs
-empower teams
-promote innovation and learning, act on teams ideas and prepare to accept to accept occasional failure
-
-
-build in small iterations.
-accomodate changes in product requirements next sprint
-
-scrum master create product backlog, with clarification from product owner during the sprint planning meeting. priority items are selected the backlog and is then inckuded in the new sprint. scrum master then assigns each item in backlog to each scrum team, the team then works on the items assigned in the backlog with daily standups meetings not long
-
-end of each sprint, master holds sprint review meeting, team and product owner included, product owner mightr changes to these items, sprint retrospective meeting held by master with team sometimes with prod owner, suggestioons for quality improvement, lessons learnt
-
-teams documents on status of each item in backlog and other important issues faced during th esprint, lessons learnt and other important info, MOM document, minutes of meeting, all docs stored in commonly shared project doc repo
-
-sprint teams finish items that were priority and other items return to backlog, them next sprint items are priotised again, product owner involvement staying high throughout projects, at meetings
-
-
-
-200-300
-
+Scrums aim to promote, innovation, learning and rapid progress as teams are empowered as they learn to take decisions with without having to refer to others. Team collaboration imporves coordination
 
 ### Source Control Workflow
 
