@@ -127,7 +127,9 @@ even if not you may be caught if business or organistation provides a health sev
 credit reporting bodies or business that trade in personal information.
 
 
+https://www.termsfeed.com/blog/legal-requirements-collect-personal-data/
 
+https://www.business.gov.au/Risk-management/Cyber-security/How-to-protect-your-customers-information
 
 
 
