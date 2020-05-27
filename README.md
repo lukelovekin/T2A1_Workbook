@@ -71,24 +71,30 @@ Types of manual testing processes:
 - White Box Testing, where the code/structure/design and implementation are known to the tester, choosing inputs to paths and determining appropriate outputs, testing beyond the user interface.
 - Black Box Testing, unline white box testing, is done without knowing about the code/structure/design and implementation, testing is done based entirely on software specs and requirements focusing on just the inputs and outputs without going deeper than the software plans.
 
+## Information System Security
 
+Information system security is the process of protecting data from unauthorised access, misuse, disclosure, destruction and modification while protecting confidentiality and integrity on data and information.
 
+When creating a marketplace application or webpage with Ruby on Rails there are some information security requirements that should be discussed and analysed such as:
+- Sessions
+If a users session-id gets stolen from an attacker, the attacker may use the applications as if it were the user. Proper Authorisation must be used to help prevent these sorts of attacks
 
+- Cross-Site Request Forgery
+This is a malicious code or a link used by attackers to send to a web application that is believed to have been previously authenticated by another user. If the session hasn't timed out the attack may make commands on behalf of the authenticated user. Using get and post methods appropriate with proper authenticity and using Rails filters accurately can be ways to help prevent these sort of attacks
 
+- Redirection
+A phishing attack is when an attacker can forward a user to a trap website by creating a similar-looking but fake URL from the users intended URL
 
+Other aspects of the application to consider:
 
+- Intranet and Admin Security
+- User Management
+- Injections
+- Unsafe Query Generation
+- Default Headers
+- Environmental Security
 
-
-*** Having suffered several cyber attacks in the past and resultant remedial audits ACME Corporation takes compliance, security and privacy very seriously. The following set of questions relate to this RfQ-requirement.
-
-## Information Security
-
-Q6	Discuss and analyse requirements related to information system security and how they relate to the project	100-200
-Discuss and analyse requirements related to information system security
-6.0 to >5.0 pts
-HD
-Meets D with evidence that the best option for information security was chosen
-
+With correct user identification, authentication and authorization methods used alongside rails security helper methods all these security issues can be prevented. It is highly recommended to use common Rails plug-ins and keep them updated. Keeping vigilante when changing parameters and keep the master key safe.
 
 ## Protecting Information and Data
 
@@ -97,7 +103,6 @@ Discuss common methods of protecting information and data
 6.0 to >5.0 pts
 HD
 Meets D with clear documentation on the specific methods that will be used for this project to protect information and data and why these methods were chosen
-
 
 ## Legal Obligations to Handling Data
 
