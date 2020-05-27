@@ -56,7 +56,12 @@ some feature
 -iterative development, scrum team develops product or service changes accordingly, demo by the owner
 
 Key roles
--product owener
+-product owener, represents the client or product, provides clarification on reqs for product
+
+-scrum master,  responsible for amnaging all activities in teh scrum, facilitator, setups good environment, guides, facilitates and coaches each member of team about best practice followed in scrum, clears ay obstacles in project, assures scrum processes are followed diligently. Mediatior, ensure goodworking relationships between stakeholders and scrum team, daily stand up conductor, deliverying deliverable on time with good quality, focus on scrum time, expert in field of scrum, leader role, coordinating trema managment,
+
+scrum team
+-handles development of product, the coding, building anmd testing for product. turning actrion items in backlog into a functional piece, meeting acceptance criteria. each a specialist in a certain area, quality control, programming, business analasyt. communicate with all other team members. self organising and determining on items in teh product backlog
 
 
 
@@ -69,11 +74,17 @@ promote innovation and learning, act on teams ideas and prepare to accept to acc
 build in small iterations.
 accomodate changes in product requirements next sprint
 
-Q3	Discuss the implementation of Agile project management methodology	200-300
- Discuss the implementation of Agile methodology
-6.0 to >5.0 pts
-HD
-Complete and detailed description of Agile methodology
+scrum master create product backlog, with clarification from product owner during the sprint planning meeting. priority items are selected the backlog and is then inckuded in the new sprint. scrum master then assigns each item in backlog to each scrum team, the team then works on the items assigned in the backlog with daily standups meetings not long
+
+end of each sprint, master holds sprint review meeting, team and product owner included, product owner mightr changes to these items, sprint retrospective meeting held by master with team sometimes with prod owner, suggestioons for quality improvement, lessons learnt
+
+teams documents on status of each item in backlog and other important issues faced during th esprint, lessons learnt and other important info, MOM document, minutes of meeting, all docs stored in commonly shared project doc repo
+
+sprint teams finish items that were priority and other items return to backlog, them next sprint items are priotised again, product owner involvement staying high throughout projects, at meetings
+
+
+
+200-300
 
 
 ### Source Control Workflow
@@ -202,6 +213,8 @@ Provides a complete and detailed analysis of the efficiency of an algorithm usin
 *** Companies (including ACME Corporation) value previous project experience and case studies. The following set of questions relate to this RfQ-requirement.
 
 ## Marketplace Website
+
+https://builtwith.com/
 
 Q14	Conduct research into a marketplace website (app) and answer the following parts: 
  a. List and describe the software used by the app.
