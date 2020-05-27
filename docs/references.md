@@ -10,9 +10,9 @@ Q4  - https://www.atlassian.com/git/tutorials/what-is-version-control
 Q5  - https://www.guru99.com/manual-testing.html
     - https://www.iso.org/obp/ui/#iso:std:iso-iec-ieee:29119:-1:ed-1:v1:en
 
-Q6  -
+Q6  - https://guides.rubyonrails.org/security.html#additional-resources
 
-Q7  -
+Q7  - https://www.youtube.com/watch?v=w-4U3Eyb6xg
 
 Q8  -
 
