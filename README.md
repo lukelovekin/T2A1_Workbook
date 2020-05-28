@@ -117,32 +117,13 @@ and the list can go on.
 
 ## Legal Obligations to Handling Data
 
-Privacy Act 1988
-australian privacy principals.
-if medium to large organisations, compay or not, individuals partnerships, unincorporated associations and trusts
+The Privacy Act 1988 states that business owners have a responsibility to protects individuals personal information from unauthorised access, interference, theft and other misuses of their data. All businesses should have an understanding of this act and should use it as a guide to help prevent their company and the employees from privacy issues.
 
-applys to business, not for profit organisations, clubs and associations, union and employee organisations that exceed 3mill
+By law, companies that have an annual turnover of more than three million dollars and some businesses that fall under certain other categories must, as a minimum, follow this Privacy Act. This can mean having a proactive privacy management program in place as well as having federal government agencies allocate a Privacy Champion from a high ranking title to conduct Privacy Impact Assessments for the businesses high-risk projects. Privacy compliance responsibilities can not be given to someone in a junior role in Information Security or Legal.
 
-even if not you may be caught if business or organistation provides a health sevices to another individuals and holds any health information that is not about your employees
-credit reporting bodies or business that trade in personal information.
+All IT and Tech professionals need to be aware of their organisation's privacy compliance risk profile and priorities and acquire and educate themselves on data governance. There is a new notifiable data breach scheme that also covers smaller businesses. For businesses to be efficient in privacy management, Information Security, Information Technology, legal, risk, compliance teams and users of data within a company, as well as others in the company that take advantage of this data including marketing, customer service, Human resources etc, all need constant cooperation. This act and other Australian laws regulate what information can be collected, what obligations companies have in relation to data security, how they should maintain data quality, the rights for the staff of the company as well as their customers and both their rights to access this private data. The data collected, the limitations on how it will be used and how it will be stored and disposed of is also regulated under Australian Acts and Regulations. Since privacy issues and risk can come from all sorts of directions, people in the tech industry need to think beyond data security and , after consulting with the client needs they, they need to make sure they are only collecting data which needs to be collected to start with as well as the reasons previously mentioned, how they should be used, stored and access etc. Once customers personal information is no longer needed it must get either de-identified or destroyed.
 
-
-https://www.termsfeed.com/blog/legal-requirements-collect-personal-data/
-
-https://www.business.gov.au/Risk-management/Cyber-security/How-to-protect-your-customers-information
-
-
-
-Q8	Research what your legal obligations are in relation to handling user data and how they can be met for the poroject
-Research what your legal obligations are in relation to handling user data
-6.0 to >5.0 pts
-HD
-Meets D with evidence of discussion of findings and agreement on approach to be used to meet legal obligations 100-200
-
-
-
-
-
+Keeping clients and other individuals or groups privacy and integrity should be one of the top priorities for IT and Tech professionals and its a very important responsibility. All IT and Tech companies and individuals to implement policies and procedures on how to take precautions and how to keep individuals privacy safe from unauthorized access to other individuals who could use this information for malicious use or other abusive reasons. Policies and procedures should also include ways to state and enforce the purpose of why the data is being collected and assure the individual's whos data is being kept that it won't be used for other non-specific purposes without the consent of the individual. The individual should be made aware and have a clear understanding on how their data will be kept and the intended purposes for keeping their data as well as their own access to check their information collected to make sure it is accurate. Only the necessary data and information should be kept and stored for a specific amount of time. These policies and procedures shall apply to all means of communications where data can be collected and non-specific data from the individual should not get collected without permission by individual or authorization relative system operations and maintenance. At all times shall privacy be strictly kept confidential when performing normal duties, operations and maintenance which included individuals data being observed other than times when used as evidence for violating law or organisations regulations.
 
 
 *** ACME Corporation has specifically requested the app to be based on a relational database. The next set of questions relate to this RfQ-requirement.

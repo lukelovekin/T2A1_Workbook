@@ -14,9 +14,10 @@ Q6  - https://guides.rubyonrails.org/security.html#additional-resources
 
 Q7  - https://www.youtube.com/watch?v=w-4U3Eyb6xg
 
-Q8  - https://www.websolutionz.com.au/blog/data-privacy-what-are-your-obligations-in-australia
-    - https://iclg.com/practice-areas/data-protection-laws-and-regulations/australia
-    - https://www.youtube.com/watch?v=MQc-UjE560A
+Q8  - https://www.business.gov.au/Risk-management/Cyber-security/How-to-protect-your-customers-information
+    - https://plato.stanford.edu/entries/it-privacy/
+    - https://www.technologydecisions.com.au/content/information-technology-professionals-association/article/what-every-it-pro-needs-to-know-about-privacy-202184559 
+    - https://www.business.gov.au/Risk-management/Cyber-security/How-to-protect-your-customers-information 
 
 Q9  -
 
