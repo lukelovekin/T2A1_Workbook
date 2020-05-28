@@ -125,17 +125,13 @@ All IT and Tech professionals need to be aware of their organisation's privacy c
 
 Keeping clients and other individuals or groups privacy and integrity should be one of the top priorities for IT and Tech professionals and its a very important responsibility. All IT and Tech companies and individuals to implement policies and procedures on how to take precautions and how to keep individuals privacy safe from unauthorized access to other individuals who could use this information for malicious use or other abusive reasons. Policies and procedures should also include ways to state and enforce the purpose of why the data is being collected and assure the individual's whos data is being kept that it won't be used for other non-specific purposes without the consent of the individual. The individual should be made aware and have a clear understanding on how their data will be kept and the intended purposes for keeping their data as well as their own access to check their information collected to make sure it is accurate. Only the necessary data and information should be kept and stored for a specific amount of time. These policies and procedures shall apply to all means of communications where data can be collected and non-specific data from the individual should not get collected without permission by individual or authorization relative system operations and maintenance. At all times shall privacy be strictly kept confidential when performing normal duties, operations and maintenance which included individuals data being observed other than times when used as evidence for violating law or organisations regulations.
 
-
-*** ACME Corporation has specifically requested the app to be based on a relational database. The next set of questions relate to this RfQ-requirement.
-
 ## Structural Aspects of the Relational Database Model
 
-Q9	Describe the structural aspects of the relational database model. Your description should include information about the structure in which data is stored and how relations are represented in that structure.	100-200
-Describes the structural aspects of the relational database model
-6.0 to >5.0 pts
-HD
-Complete and detailed description of the structural aspects of the relational database model
+A relational database is made of many database tables each containing rows and columns. These tables all have unique names, multiple unique rows also known as records, multiple columns are known as attributes and these tables are linked together in meaningful ways. Tables are usually modelled around a separate entity of a business, organisation, webpage or application.
 
+A relational database uses relationships to link tables together also know as table associations. The relationships are created using keys which can be used in each table to refer to another table.
+
+Say for our rails application we had a Relational Database containing a Users/Customers table and a Product table, both representing two different entities of the marketplace app. The Product table can have many attributes/columns that contain different types of data on this product. The User table can have many of its own attributes that contain different types of data on the User. To link the two together in this instance, if it was not done initially, we can add a product column to the user's table and using foreign keys in this column in the users' table to refer to a primary key (unique id) of a specific row from the products table joining a product to a user so when accessing this users records, we can see what product or products they have relations with without having to repeat data input and keeping data integrity. During the setup of these databases, these relationships need to be defined by usually a one to many, many to many or a one to one relationship again keeping data integrity. One product may have many users storing the products primary key into more than one user's product column as a foreign key.
 
 ## Intengrity Aspects of the Relational Database Model
 
