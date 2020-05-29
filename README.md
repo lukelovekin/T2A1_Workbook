@@ -166,9 +166,6 @@ Complete and detailed description of the manipulative aspects of the relational 
 
 
 
-
-
-
 *** The efficiency of an app (i.e. site) and the algorithms used are of the utmost importance. The next set of questions relate to this RfQ-requirement.
 
 ## The Workings of Two Sorting Algorithms
