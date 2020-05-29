@@ -135,25 +135,25 @@ Say for our rails application we had a Relational Database containing a Users/Cu
 
 ## Intengrity Aspects of the Relational Database Model
 
-When it comes to integrity, there are several main things to think about when adding, updating and modifying data in our Relational Databases. These are Domain constraints, Entity/ Key constraints, Referential constraints and maintaining ACID principals (Atomicity, Consistancy, Isolation and Durability)
+When it comes to integrity, there are several main things to think about when adding, updating and modifying data in our Relational Databases. These are Domain constraints, Entity/ Key constraints, Referential constraints and maintaining ACID principals (Atomicity, Consistency, Isolation and Durability)
 
-To help prevent againts errors when making change to a database we should use transactions such as perform to a unit of work so the whole unit must be complete before completing and if they arent, database changes wont be done or will be undone. Keeping the database transactions ACID means:
-- Keeping the Database so pieces of data cant be seperated out.
-- When ever a unit of work is being made nothing else is to be completed preventing conflicting error between two transactions and the data involved.
-- during transactions, the data needs to be left in a valid state and so transactions cant go against the existant databae integrity rules.
+To help prevent against errors when making a change to a database we should use transactions such as perform to a unit of work so the whole unit must be complete before completing and if they arent, database changes won't be done or will be undone. Keeping the database transactions ACID means:
+- Keeping the Database so pieces of data cant be separated out.
+- Whenever a unit of work is being made nothing else is to be completed preventing conflicting error between two transactions and the data involved.
+- during transactions, the data needs to be left in a valid state and so transactions can't go against the existing database integrity rules.
 - When data and information gets modified during these units of work, the changes only finalise once that unit of work has been completed
 
-Capabilties for following  these ACID principals requiremtents are mainly handled by the Database Management System already (DBMS) as well as the 3 Database integrity constraints, as long as we accurately communicate with the DBMS.
+Capabilities for following these ACID principals requirements are mainly handled by the Database Management System already (DBMS) as well as the 3 Database integrity constraints, as long as we accurately communicate with the DBMS.
 
-Constraints are imposed on every relation table to enforce correct use of the data going into those tables.
+Constraints are imposed on every relation table to enforce the correct use of the data going into those tables.
 
-Entity or Key integrity constraints condidtions are imposed on primary keys of tables.Primary key field for every record/ or row must not be null and must be unique  
+Entity or Key integrity constraints conditions are imposed on the primary keys of tables. The primary key field for every record/ or row must not be null and must be unique  
  
-Domain integrity constraint conditions are imposed to keep the data inputted into the tables a valid data type according to the table columns purpose. E.g Validating and sanitising data, making sure null values arent allow in some columns, etc.
+Domain integrity constraint conditions are imposed to keep the data inputted into the tables a valid data type according to the table columns purpose. E.g Validating and sanitising data, making sure null values aren't allowed in some columns, etc.
  
-Referencial integrity constraint conditions are imposed on tables that have relations to other tables, used to keep consitency between the two tables implemented using a foreign key in a database table which makes referece to another tables record.
+Referential integrity constraint conditions are imposed on tables that have relations to other tables, used to keep consistency between the two tables implemented using a foreign key in a database table which makes reference to another tables record.
 
-During database design phas these constraints should be imposed, they can include things like, certain strings cant be more then 50 character, certain data types can not be integers, data type should have a value and not null
+During database design phase these constraints should be imposed, they can include things like certain strings cant be more than 50 characters, certain data types can not be integers, data type should have a value and not null.
 
 ## Manipulative Aspects of the Relational Database Model
 
