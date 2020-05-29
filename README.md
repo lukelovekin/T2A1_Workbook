@@ -157,16 +157,20 @@ During database design phase these constraints should be imposed, they can inclu
 
 ## Manipulative Aspects of the Relational Database Model
 
-Q11	Describe the manipulative aspects of the relational database model. Your description should include information about the ways in which data is manipulated (added, removed, changed, and retrieved) in a relational database.	100-200
-This criterion is linked to a Learning OutcomePRG1048-3.3 - Describes the manipulative aspects of the relational database model
-6.0 to >5.0 pts
-HD
-Complete and detailed description of the manipulative aspects of the relational database model
+To be able to interact and manipulate data in a database or a Database Management System there are three main sub-languages, Database manipulation language(DML) used for querying and updating the data in a database, Data Definition Language (DDL) used for defining characters of a database and Data Control Language (DCL) used to access the database. An example of there is SQL, a structured query language which can also be used to manipulating the database tables and having access to them. DML allows us to write, query and update the data for the database. DDL defines the characteristics of the database while the DCl is used to control the user's access to the database.
 
+There are three basic query relational database queries:
+- Projection queries, this is retrieving specific attributes from a relational table which can project one or more tables and columns.
+- Selection, depending on a condition, this can retrieve none, one or many rows.
+- Join, this is simply joining the rows of two relations depending on a given condition
 
+Using SQL as the DML, DCL, and DDL, we can Create, Read, Update and Delete (CRUD) data on the database. SQL statements are made up of clauses usually containing expressions and predicates. Clauses contain key words that can be an action to take and something to act on or use. Expressions and predicates show the parameters in which to access to manipulate the data as per the statement. These statements can be written to work with the database by using software like SQL Server Management Studio or putting them straight into the programs source code.
 
+An example of querying the database using SQL:
+- Clause example, SELECT FirstName FROM Users WHERE Age = 50;
+- Predicates example, Age = 50;
+- Expressions example, 50
 
-*** The efficiency of an app (i.e. site) and the algorithms used are of the utmost importance. The next set of questions relate to this RfQ-requirement.
 
 ## The Workings of Two Sorting Algorithms
 

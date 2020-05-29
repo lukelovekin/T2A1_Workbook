@@ -24,7 +24,10 @@ Q9  - https://www.linkedin.com/learning/programming-foundations-databases-2/acid
 Q10 - https://www.guru99.com/relational-data-model-dbms.html#3
     - https://www.linkedin.com/learning/programming-foundations-databases-2/acid-and-transactions-2?u=79795722
 
-Q11 -
+Q11 - http://www.se.rit.edu/~swen-220/slides/SWEN-220-DataModels_01_Relational.pdf
+    - https://www.cs.uct.ac.za/mit_notes/database/htmls/chp02.html
+    - https://en.wikipedia.org/wiki/Relational_model    
+    - https://www.linkedin.com/learning/programming-foundations-databases-2/basic-sql?u=79795722  
 
 Q12 -
 
