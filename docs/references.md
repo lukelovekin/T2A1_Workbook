@@ -19,9 +19,10 @@ Q8  - https://www.business.gov.au/Risk-management/Cyber-security/How-to-protect-
     - https://www.technologydecisions.com.au/content/information-technology-professionals-association/article/what-every-it-pro-needs-to-know-about-privacy-202184559 
     - https://www.business.gov.au/Risk-management/Cyber-security/How-to-protect-your-customers-information 
 
-Q9  -
+Q9  - https://www.linkedin.com/learning/programming-foundations-databases-2/acid-and-transactions-2?u=79795722
 
-Q10 -
+Q10 - https://www.guru99.com/relational-data-model-dbms.html#3
+    - https://www.linkedin.com/learning/programming-foundations-databases-2/acid-and-transactions-2?u=79795722
 
 Q11 -
 
