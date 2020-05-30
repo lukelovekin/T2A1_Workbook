@@ -326,10 +326,28 @@ Comparison: Linear is a lot simpler and does not need a list to be sorted for it
 
 ## Marketplace Website
 
-https://builtwith.com/
+### Ebay
 
-Q14	Conduct research into a marketplace website (app) and answer the following parts: 
- a. List and describe the software used by the app.
+#### Software
+
+- Javascript(ES6)
+
+- Node.js
+
+- Java
+
+- Apache Tomcat
+
+- Cassandra
+
+- Hadoop
+
+- Oracle
+
+- Cloudinary
+
+- Marko
+
 
 Conducts research and describes the software used by an organisation (software / database)
 6.0 to >5.0 pts
@@ -338,7 +356,7 @@ Complete and detailed description of the software used by an organisation
 
 
 
-  b. Describe the hardware used to host the app.
+#### Hardware
 
 Conducts research and describes the infrastructure used by an organisation (hardware / networks)
 6.0 to >5.0 pts
@@ -347,7 +365,7 @@ Shows a full understanding of the hosting infrastructure
 
 
 
-  c. Describe the interaction of technologies within the app
+#### Interaction of Technologies
 
 Describes the interaction of technologies and identifies their role and purpose in the system
 6.0 to >5.0 pts
@@ -356,7 +374,10 @@ Complete and detailed description of the interaction of technologies and their r
 
 
 
-  d. Describe the way data is structured within the app
+#### Data Structure
+
+
+
 
 Describe (in general terms) the data structure of two-sided marketplace applications (e.g. eBay, Airbnb)
 6.0 to >5.0 pts
@@ -364,8 +385,7 @@ HD
 Shows a complete understanding of the data structure of two sided marketplace apps
 
 
-
-  e. Identify entities which must be tracked by the app
+#### Entities
 
 Identify entities which must be tracked by the application
 6.0 to >5.0 pts
@@ -374,8 +394,7 @@ Identifies all significant entities, as well as additional entities
 
 
 
-  f. Identify the relationships and associations between the entities you have identified in part (e)
-
+#### Relationships and Associations between Entitites
 Identify relationships / associations between entities
 6.0 to >5.0 pts
 HD

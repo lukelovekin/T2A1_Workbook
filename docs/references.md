@@ -34,6 +34,7 @@ Q12 - https://www.youtube.com/watch?v=g-PGLbMth_g
     - https://coderacademy.instructure.com/courses/323/pages/big-o-notation?module_item_id=17644
     - https://medium.com/@a.carreras.c/ruby-searching-algorithms-for-dummies-cdaadc277923
 
-Q13 -
+Q13 - ^^^^^^^^^
 
-Q14 -
+Q14 - https://stackshare.io/ebay/ebay
+    - 
