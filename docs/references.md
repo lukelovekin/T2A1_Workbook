@@ -29,7 +29,8 @@ Q11 - http://www.se.rit.edu/~swen-220/slides/SWEN-220-DataModels_01_Relational.p
     - https://en.wikipedia.org/wiki/Relational_model    
     - https://www.linkedin.com/learning/programming-foundations-databases-2/basic-sql?u=79795722  
 
-Q12 -
+Q12 - https://www.youtube.com/watch?v=g-PGLbMth_g
+    - https://en.wikipedia.org/wiki/Selection_sort
 
 Q13 -
 
