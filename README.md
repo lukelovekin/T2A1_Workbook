@@ -71,7 +71,10 @@ Types of manual testing processes:
 - White Box Testing, where the code/structure/design and implementation are known to the tester, choosing inputs to paths and determining appropriate outputs, testing beyond the user interface.
 - Black Box Testing, unline white box testing, is done without knowing about the code/structure/design and implementation, testing is done based entirely on software specs and requirements focusing on just the inputs and outputs without going deeper than the software plans.
 
-## Information System Security
+
+## Information Security and Privacy
+
+### Information System Security
 
 Information system security is the process of protecting data from unauthorised access, misuse, disclosure, destruction and modification while protecting confidentiality and integrity on data and information.
 
@@ -96,7 +99,7 @@ Other aspects of the application to consider:
 
 With correct user identification, authentication and authorization methods used alongside rails security helper methods all these security issues can be prevented. It is highly recommended to use common Rails plug-ins and keep them updated. Keeping vigilante when changing parameters and keep the master key safe.
 
-## Protecting Information and Data
+### Protecting Information and Data
 
 Similiar with the Information System Security processes, protecting information and data should be a top priority when creating a web application. Protections from security incidents where protected, sensitive and or confidential data is viewed, stolen, copied or used by anyone unauthorised to do so.
 
@@ -115,7 +118,7 @@ Other specific methods to follow to apply to the project
 - keep other admin or employee users of the web on a need to know access preventing other staff seeing things they don't need to
 and the list can go on.
 
-## Legal Obligations to Handling Data
+### Legal Obligations to Handling Data
 
 The Privacy Act 1988 states that business owners have a responsibility to protects individuals personal information from unauthorised access, interference, theft and other misuses of their data. All businesses should have an understanding of this act and should use it as a guide to help prevent their company and the employees from privacy issues.
 
@@ -125,7 +128,9 @@ All IT and Tech professionals need to be aware of their organisation's privacy c
 
 Keeping clients and other individuals or groups privacy and integrity should be one of the top priorities for IT and Tech professionals and its a very important responsibility. All IT and Tech companies and individuals to implement policies and procedures on how to take precautions and how to keep individuals privacy safe from unauthorized access to other individuals who could use this information for malicious use or other abusive reasons. Policies and procedures should also include ways to state and enforce the purpose of why the data is being collected and assure the individual's whos data is being kept that it won't be used for other non-specific purposes without the consent of the individual. The individual should be made aware and have a clear understanding on how their data will be kept and the intended purposes for keeping their data as well as their own access to check their information collected to make sure it is accurate. Only the necessary data and information should be kept and stored for a specific amount of time. These policies and procedures shall apply to all means of communications where data can be collected and non-specific data from the individual should not get collected without permission by individual or authorization relative system operations and maintenance. At all times shall privacy be strictly kept confidential when performing normal duties, operations and maintenance which included individuals data being observed other than times when used as evidence for violating law or organisations regulations.
 
-## Structural Aspects of the Relational Database Model
+## Relation Database
+
+### Structural Aspects of the Relational Database Model
 
 A relational database is made of many database tables each containing rows and columns. These tables all have unique names, multiple unique rows also known as records, multiple columns are known as attributes and these tables are linked together in meaningful ways. Tables are usually modelled around a separate entity of a business, organisation, webpage or application. All these tables belong to a schema which is a representation of the logical configuration for the relational database as well as indicating how the entities relate to each other.
 
@@ -133,7 +138,7 @@ A relational database uses relationships to link tables together also know as ta
 
 Say for our rails application we had a Relational Database containing a Users/Customers table and a Product table, both representing two different entities of the marketplace app. The Product table can have many attributes/columns that contain different types of data on this product. The User table can have many of its own attributes that contain different types of data on the User. To link the two together in this instance, if it was not done initially, we can add a product column to the user's table and using foreign keys in this column in the users' table to refer to a primary key (unique id) of a specific row from the products table joining a product to a user so when accessing this users records, we can see what product or products they have relations with without having to repeat data input and keeping data integrity. During the setup of these databases, these relationships need to be defined by usually a one to many, many to many or a one to one relationship again keeping data integrity. One product may have many users storing the products primary key into more than one user's product column as a foreign key.
 
-## Intengrity Aspects of the Relational Database Model
+### Intengrity Aspects of the Relational Database Model
 
 When it comes to integrity, there are several main things to think about when adding, updating and modifying data in our Relational Databases. These are Domain constraints, Entity/ Key constraints, Referential constraints and maintaining ACID principals (Atomicity, Consistency, Isolation and Durability)
 
@@ -155,7 +160,7 @@ Referential integrity constraint conditions are imposed on tables that have rela
 
 During database design phase these constraints should be imposed, they can include things like certain strings cant be more than 50 characters, certain data types can not be integers, data type should have a value and not null.
 
-## Manipulative Aspects of the Relational Database Model
+### Manipulative Aspects of the Relational Database Model
 
 To be able to interact and manipulate data in a database or a Database Management System there are three main sub-languages, Database manipulation language(DML) used for querying and updating the data in a database, Data Definition Language (DDL) used for defining characters of a database and Data Control Language (DCL) used to access the database. An example of there is SQL, a structured query language which can also be used to manipulating the database tables and having access to them. DML allows us to write, query and update the data for the database. DDL defines the characteristics of the database while the DCl is used to control the user's access to the database.
 
@@ -171,8 +176,9 @@ An example of querying the database using SQL:
 - Predicates example, Age = 50;
 - Expressions example, 50
 
+## Algorithms
 
-## Sorting Algorithms
+### Sorting Algorithms
 
 Selection Sort:
 An example of Selection sort, given an unsorted array with a sorted portion of an array(no sorted portions to begin with), starting with the first number in the array and labelling it as the current minimum, iterate over all elements in array swapping the current minimum to the next lowest number it finds on the way, once each element has been iterated over the last number that is the current minimum gets put into the sort portion of the array or put into a new sorted array. This iteration gets repeated until all elements have been put into a sorted portion or array.
@@ -254,7 +260,7 @@ def bubblesort(array):
 Comparison:
 In comparison with the Selection sort method, the bubble sort method is a lot simpler and has a much better best case time complexity since selection sort has in all cases a O(n2) complexity.
 
-## Searching Algorithms
+### Searching Algorithms
 
 Linear Search:
 Linear search will look at each element one at a time in order. This gives it a Linear big o notation O(n). Linear notation is when, in a worse case, the algorithm requires as many steps as there are items to be searched.  If there were 10 items in the array this search would take 10 times. Best case scenario the element is found immediately it is 1 step but still 0(n) complexity.
