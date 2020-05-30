@@ -31,6 +31,8 @@ Q11 - http://www.se.rit.edu/~swen-220/slides/SWEN-220-DataModels_01_Relational.p
 
 Q12 - https://www.youtube.com/watch?v=g-PGLbMth_g
     - https://en.wikipedia.org/wiki/Selection_sort
+    - https://coderacademy.instructure.com/courses/323/pages/big-o-notation?module_item_id=17644
+    - https://medium.com/@a.carreras.c/ruby-searching-algorithms-for-dummies-cdaadc277923
 
 Q13 -
 

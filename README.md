@@ -172,12 +172,13 @@ An example of querying the database using SQL:
 - Expressions example, 50
 
 
-## The Workings of Two Sorting Algorithms
+## Sorting Algorithms
 
 Selection Sort:
 An example of Selection sort, given an unsorted array with a sorted portion of an array(no sorted portions to begin with), starting with the first number in the array and labelling it as the current minimum, iterate over all elements in array swapping the current minimum to the next lowest number it finds on the way, once each element has been iterated over the last number that is the current minimum gets put into the sort portion of the array or put into a new sorted array. This iteration gets repeated until all elements have been put into a sorted portion or array.
 
-This algorithm has a big O notation/ time complexity of 0(n2) which has a Quadratic O Notation value, as we have a certain sized array, and we have a number of times this loop shall iterate which is for how every many elements are in that array. If we have an array the size of (n-1) and all elements are unsorted then worst case scenario we will have to iterate over the whole array (n-1) times. This becomes (n*n) or (n2). In a best-case scenario, even if the array was sorted, this sorting algorithm still iterates over all elements (n) the number of times in the array (n) time making the Big O notation of O(n2)
+This algorithm has a big O notation/ time complexity of 0(n2) which has a Quadratic O Notation value, as we have a certain sized array, and we have a number of times this loop shall iterate which is for how every many elements are in that array. This is a great example of Quadration O notation, when you have to execute an action "n" times over an "n" amount  If we have an array the size of (n-1) and all elements are unsorted then worst case scenario we will have to iterate over the whole array (n-1) times. This becomes (n*n) or (n2). In a best-case scenario, even if the array was sorted, this sorting algorithm still iterates over all elements (n) the number of times in the array (n) time making the Big O notation of O(n2)
+
 
 ``` 
  // Creating the function
@@ -222,10 +223,6 @@ In an array, each element is compared to the element next to it. For each iterat
 Like the Selection sort, this sorting method also has a big O notation/ time complexity of 0(n2) which has a Quadratic O Notation value as the size of the array (n-1), each element may have to be compared until all elements are sorted which can take (n-1) times. n*n = n2. In best-case scenario though if all elements in the array were already sorted  then the time complexity would only be O(1) 
 or O(n)
 
-Comparison:
-In comparison with the Selection sort method, this method is a lot simpler and has a much better best case complexity since selection sort has in all cases a O(n2) com
-
-
 ```
 def bubblesort(array):
 
@@ -251,21 +248,75 @@ def bubblesort(array):
             if array[x] > array[x + 1]:
                 swap(array, x, x + 1)
                 swapped = True
-            yield array
-```.
+            yield array    
+```
 
-## The Workings of Two Searching Algorithms
+Comparison:
+In comparison with the Selection sort method, the bubble sort method is a lot simpler and has a much better best case time complexity since selection sort has in all cases a O(n2) complexity.
 
-Q13	Identify and explain the workings of TWO search algorithms and discuss and compare their performance/efficiency (i.e. Big O)	300-500
+## Searching Algorithms
 
+Linear Search:
+Linear search will look at each element one at a time in order. This gives it a Linear big o notation O(n). Linear notation is when, in a worse case, the algorithm requires as many steps as there are items to be searched.  If there were 10 items in the array this search would take 10 times. Best case scenario the element is found immediately it is 1 step but still 0(n) complexity.
 
+```
+  def linear_search(searched_element)
 
+// starting the search at index i = 0
+    i = 0
+    while i < self.length
+      if self[i] == searched_element
+        return i
+      end
 
+// if the searched_element is not at index 0, add 1 to the index, repeat until search_element is found
+      i += 1
+    end
 
+// if all elements have been searched and none match, then print "not found
+    "Not found"
+  end
+end
+```
 
+Binary Search:
+Binary search, using a sorted array, the midpoint element is determined. If the element your searching for is greater the than the midpoint then repeat this step on the second half of the array, if its smaller repeat this step on the first half of the array. if the midpoint element is equal to the element your searching then the search is complete. Then repeat, find the midpoint of this next half of the array and etc until you find the element that is being searched. This is an example of a Logarithmic, O(logn), big o notations implying that its actually log2 n and n being the number of elements in our array to search. If we have "n" element if we divide our items to be searched by 2 we then have "log2 n/2" elements then if we divide in have again we'll have "log2 n/4" elements still meaning that the big o nation is just "logn"
 
+```
+// Only worked on sorted arrays
 
-*** Companies (including ACME Corporation) value previous project experience and case studies. The following set of questions relate to this RfQ-requirement.
+def binary_search(array, n)
+  middle = array[array.length / 2]
+  i = 0
+  x = array.length - 1
+
+  while i < x
+
+    //this this happens if the middle searched at the iteration is the number being searched
+    if middle == n
+      return true
+
+    // if the middle element is less then the number searched then i is changed to equal the middle value and from that new value to the end of the rest of the array length is /2 
+    // to make a new middle value for the next iteration
+    elsif middle < n
+      i = middle
+
+    // if middle element is greater then the number searched then i is changed to equal the middle value and from that new value to the end of the rest of the array length is /2 
+    // to make a new middle value for the next iteration
+      middle = i + x / 2
+
+    else
+      x = middle
+      middle = i + x / 2
+    end
+
+  end
+  false
+end 
+
+```
+
+Comparison: Linear is a lot simpler and does not need a list to be sorted for it to work, it uses equal comparison to look for the element whereas Binary search uses ordering comparisons as well as equal comparisons. In worst-case scenarios, logn will take fewer steps for search an element but a linear search is less complex.
 
 ## Marketplace Website
 
