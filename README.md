@@ -222,7 +222,8 @@ In and array, each element is compared to the element next to it. For each itera
 Like the Selection sort, this sort method also has a big O notaion/ time complexity of 0(n2) which has a Quadratic O Notation value as the size of the array (n-1), each element may have to be comnpared until all ielements are sorted whcih can take (n-1) times. n*n = n2. In best case scenario though if all elements in array were already sorted  then the time complexity would only be O(1) 
 or O(n)
 
-In comparison with the Selection sort method, this method is a lot simpler and has a much better best case complexity since selection sort has in all cases a O(n2) complexity
+Comparison:
+In comparison with the Selection sort method, this method is a lot simpler and has a much better best case complexity since selection sort has in all cases a O(n2) com
 
 
 ```
@@ -250,11 +251,6 @@ def bubblesort(array):
                 swapped = True
             yield array
 ```
-
-
-When comparing the two Sorting algorithms to each other they both have the same Big O nation although the bubble sort method need to 
-
-Q12	Identify and explain the workings of TWO sorting algorithms and discuss and compare their performance/efficiency (i.e. Big O)	300-500
 
 ## The Workings of Two Searching Algorithms
 
