@@ -175,9 +175,9 @@ An example of querying the database using SQL:
 ## The Workings of Two Sorting Algorithms
 
 Selection Sort:
-An example of Selection sort, given an unsorted array with a sorted portion of an array(no sorted portions to begin with) starting with the first number in the array and labelling it as the current minimum, iterate over all elements in array swapping the current minimum to the next lowest number it finds on the way, once each elemnent has been iterated over the last number that is the current minimum gets put into the sort portion of the array, or put into a new sorted array. This iteration get repeated till all elements have been put into sorted portion or array.
+An example of Selection sort, given an unsorted array with a sorted portion of an array(no sorted portions to begin with), starting with the first number in the array and labelling it as the current minimum, iterate over all elements in array swapping the current minimum to the next lowest number it finds on the way, once each element has been iterated over the last number that is the current minimum gets put into the sort portion of the array or put into a new sorted array. This iteration gets repeated until all elements have been put into a sorted portion or array.
 
-This algorithm has a big O notaion/ time complexity of 0(n2) which has a Quadratic O Notation value, as we have a certain sized array, and we have a number or times this loop shall iterate which is for how every many elements are in that array. If we have an array the size of (n-1) and all elements are unsorted then worst case scenario we will have to iterate over the whole array (n-1) times. This become (n*n) or (n2). In best case scenario, even if the array was sorted, this sorting algorithm still iterates over sll elements (n) the amount of times in the array (n) stimm making the Big O notation of O(n2)
+This algorithm has a big O notation/ time complexity of 0(n2) which has a Quadratic O Notation value, as we have a certain sized array, and we have a number of times this loop shall iterate which is for how every many elements are in that array. If we have an array the size of (n-1) and all elements are unsorted then worst case scenario we will have to iterate over the whole array (n-1) times. This becomes (n*n) or (n2). In a best-case scenario, even if the array was sorted, this sorting algorithm still iterates over all elements (n) the number of times in the array (n) time making the Big O notation of O(n2)
 
 ``` 
  // Creating the function
@@ -186,18 +186,18 @@ let selectionSort = (array) => {
 // Giving the length variable and value of how long the array will be  
     let length = array.length  
 
-// initializing a for loop with a intialiser, condition and increment, start i at 0, if after every iteration i is less then the length of the array then repeat and 
+// initializing a for loop with a initialiser, condition and increment, start i at 0, if after every iteration i is less then the length of the array then repeat and 
 // add one to the valie of i.            
     for (let i = 0; i < length; i++) {    
     
-// calling a variavle called minimum to equal i which is 0
+// calling a variable called minimum to equal i which is 0
         let min = i      
 
 // initialising another for loop, giving x the value of i + 1, if x is lower then length at another 1 to x until it is not.             
         for (let x = i + 1; x < length; x++) {
 
-// since x is now i + 1 and min = i, this is comparing two numbers (min beign the first and x being one after min) starting at the start of the array
-// comparing and adding as x get further along the index with its +1 increments, when a number is smaller then x, the the new current min will become the value fo that x
+// since x is now i + 1 and min = i, this is comparing two numbers (min being the first and x being one after min) starting at the start of the array
+// comparing and adding as x get further along the index with its +1 increments when a number is smaller then x, the new current min will become the value fo that x
 // while continuing through the iteration till all elements have been compared
             if (array[min] > array[x]) {
                 min = x
@@ -217,9 +217,9 @@ let selectionSort = (array) => {
 ```
 
 Bubble Sort:
-In and array, each element is compared to the element next to it. For each iteration, if the next element is greater than the current element then these two get swappd and continues to do this for every element in the array until there is an iteration where no swaps were performed which meansthe array is sorted.
+In an array, each element is compared to the element next to it. For each iteration, if the next element is greater than the current element then these two get swapped and continues to do this for every element in the array until there is an iteration where no swaps were performed which means the array is sorted.
 
-Like the Selection sort, this sort method also has a big O notaion/ time complexity of 0(n2) which has a Quadratic O Notation value as the size of the array (n-1), each element may have to be comnpared until all ielements are sorted whcih can take (n-1) times. n*n = n2. In best case scenario though if all elements in array were already sorted  then the time complexity would only be O(1) 
+Like the Selection sort, this sorting method also has a big O notation/ time complexity of 0(n2) which has a Quadratic O Notation value as the size of the array (n-1), each element may have to be compared until all elements are sorted which can take (n-1) times. n*n = n2. In best-case scenario though if all elements in the array were already sorted  then the time complexity would only be O(1) 
 or O(n)
 
 Comparison:
@@ -229,48 +229,36 @@ In comparison with the Selection sort method, this method is a lot simpler and h
 ```
 def bubblesort(array):
 
-// if length of the array is 1 then the array doesnt need to be sorted.
+// if the length of the array is 1 then the array doesn't need to be sorted.
     if length(array) == 1:
         return
 
 
     swapped = True
 
-// creeating a range the size on the length of the array - 1
+// creating a range the size on the length of the array - 1
     for i in range(length(array) - 1):
 
-//if no swaps are made then the sorting is complete. swapped currently = true so if it doesnt return true after the loop then sorting is complete
+//if no swaps are made then the sorting is complete. swapped currently = true so if it doesn't return true after the loop then sorting is complete
         if not swapped:
             break
 
-// 
         swapped = False
+
         for x in range(length(array) - 1 - i):
+
+// if the element at x index position or greater the the next element, swap the two around and swapped stays true so by then end of the iteration since true doesnt match teh not true ///condition the iteration will be repeated
             if array[x] > array[x + 1]:
                 swap(array, x, x + 1)
                 swapped = True
             yield array
-```
+```.
 
 ## The Workings of Two Searching Algorithms
 
 Q13	Identify and explain the workings of TWO search algorithms and discuss and compare their performance/efficiency (i.e. Big O)	300-500
 
 
-Applies understanding of algebra to analyse an algorithm
-4.0 to >3.33 pts
-HD
-Shows almost flawless understanding of algebra in analysing an algorithm
-
-Applies algebraic techniques to analyse discrete structures
-4.0 to >3.33 pts
-HD
-Shows almost flawless understanding of Big-O notation
-
-Utilises Big-O notation to analyse the efficiency of an algorithm
-4.0 to >3.33 pts
-HD
-Provides a complete and detailed analysis of the efficiency of an algorithm using Big-O notation
 
 
 
