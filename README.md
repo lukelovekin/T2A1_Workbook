@@ -330,31 +330,33 @@ Comparison: Linear is a lot simpler and does not need a list to be sorted for it
 
 #### Software
 
+
 - Javascript(ES6)
+A lightweight interpreted object-orientated programming language used to implement complex features.
 
 - Node.js
+A server-side platform built on Chromes Javascript engine
 
 - Java
+A concurrent, class-based, object-oriented programming language used to perform complex featured
 
 - Apache Tomcat
+An Implementation of the Java Expression Language, JavaServer Pages, Java servlet  and Java WebSocket technologies.
 
-- Cassandra
+- Apache Cassandra
+A NoSQL Database Management System designed to handle large amounts of data
 
-- Hadoop
+- Apache Hadoop
+A framework allowing for distributed processing of large sets of data designed to scale-up servers.
 
 - Oracle
+A Relational Database Management System with object-orientated features.
 
 - Cloudinary
+End to end image and video management for web and mobile apps
 
 - Marko
-
-
-Conducts research and describes the software used by an organisation (software / database)
-6.0 to >5.0 pts
-HD
-Complete and detailed description of the software used by an organisation
-
-
+An isomorphic UI framework, Html based templating engine that compiles templates to readable NodeJS compatible Javascript modules
 
 #### Hardware
 
