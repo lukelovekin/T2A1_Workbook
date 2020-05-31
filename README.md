@@ -360,11 +360,10 @@ An isomorphic UI framework, Html based templating engine that compiles templates
 
 #### Hardware
 
-Conducts research and describes the infrastructure used by an organisation (hardware / networks)
-6.0 to >5.0 pts
-HD
-Shows a full understanding of the hosting infrastructure
+Ebays infrustructure is for ever expanding and covers 38 countries and they are currently working on building their own hardware and AI engine to decentralise their cluster of data centers. Ebay has 175+ millions users and a data footprint of 500+ pedabytes.
 
+Ebays principals in infrustrucure architecture is to split everything into managable sizes, keeping everything sychronized as well as automated.
+You browser connects to their webserver which then communicates to their applications and search servers which then communcicates with their data servers all set up in a grid computing type so that they all talk to each other, keeping the same data in many locations so if some failure there is plenty of other servers to back it up.
 
 
 #### Interaction of Technologies

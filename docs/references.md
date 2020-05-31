@@ -37,4 +37,5 @@ Q12 - https://www.youtube.com/watch?v=g-PGLbMth_g
 Q13 - ^^^^^^^^^
 
 Q14 - https://stackshare.io/ebay/ebay
-    - 
+    - https://www.channelfutures.com/open-source/ebay-shares-server-designs-as-it-rebuilds-it-infrastructure
+    - https://www.zdnet.com/article/ebay-built-its-own-servers-in-push-to-replatform-its-backend-infrastructure/
