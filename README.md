@@ -419,7 +419,6 @@ Develops and runs resource-efficient distributed systems
 Web and transaction monitoring
 
 #### Data Structure
-
 Similar to the "Structural Aspects of a Relational Database" section above, two-sided market places store and retrieve data from Relation Databases, usually handled by a Relational Database Management System (RDMS). These databases can have relations to other databases making it easier to search and store data without having to repeat information. Each table is usually a representation of an Entity for the two-sided market place application. Each column also known as an attribute in the tables can be used to store other types of data for the specific entity. Each row is also known as a record shows all the data on one specific instance of and an entity that exists. These tables can be linked usually by a has_many, has_one, one_to_one, one_to_many and many_to_many relationship keeping data integrity amongst the data structure.
 
 #### Entities
@@ -434,7 +433,7 @@ Entities of eBay include:
 - Payment
 - Product offer
 
-#### Relationships and Associations between Entitites
+#### Relationships and Associations between Entities
 
 - User
   - Can have zero to many product offers
@@ -443,7 +442,7 @@ Entities of eBay include:
 
 - Feedback
   - Belongs to and depends on a User
-  - Belongs to and depends on a Prduct offer
+  - Belongs to and depends on a Product offer
 
 - Bid
   - Belongs to and depends on a Product offer
@@ -458,7 +457,6 @@ Entities of eBay include:
   - Can have one to many pictures attached
   - Can have zero to many bids
   - Has one payment
-
 #### Entity Relationship Diagram (ERD)
 
 ![erb](./docs/erd2.PNG)
