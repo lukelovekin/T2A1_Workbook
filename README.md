@@ -365,7 +365,6 @@ Ebays infrustructure is for ever expanding and covers 38 countries and they are 
 Ebays principals in infrustrucure architecture is to split everything into managable sizes, keeping everything sychronized as well as automated.
 You browser connects to their webserver which then communicates to their applications and search servers which then communcicates with their data servers all set up in a grid computing type so that they all talk to each other, keeping the same data in many locations so if some failure there is plenty of other servers to back it up.
 
-
 #### Interaction of Technologies
 
 As well as the softwares used under the Software heading above, Ebay uses and works with technologies such as:
