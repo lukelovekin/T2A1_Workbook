@@ -331,31 +331,31 @@ Comparison: Linear is a lot simpler and does not need a list to be sorted for it
 #### Software
 
 
-- Javascript(ES6)
+- Javascript(ES6),
 A lightweight interpreted object-orientated programming language used to implement complex features.
 
-- Node.js
+- Node.js,
 A server-side platform built on Chromes Javascript engine
 
-- Java
+- Java,
 A concurrent, class-based, object-oriented programming language used to perform complex featured
 
-- Apache Tomcat
+- Apache Tomcat,
 An Implementation of the Java Expression Language, JavaServer Pages, Java servlet  and Java WebSocket technologies.
 
-- Apache Cassandra
+- Apache Cassandra,
 A NoSQL Database Management System designed to handle large amounts of data
 
-- Apache Hadoop
+- Apache Hadoop,
 A framework allowing for distributed processing of large sets of data designed to scale-up servers.
 
-- Oracle
+- Oracle,
 A Relational Database Management System with object-orientated features.
 
-- Cloudinary
+- Cloudinary,
 End to end image and video management for web and mobile apps
 
-- Marko
+- Marko,
 An isomorphic UI framework, Html based templating engine that compiles templates to readable NodeJS compatible Javascript modules
 
 #### Hardware
@@ -368,51 +368,80 @@ You browser connects to their webserver which then communicates to their applica
 
 #### Interaction of Technologies
 
-Describes the interaction of technologies and identifies their role and purpose in the system
-6.0 to >5.0 pts
-HD
-Complete and detailed description of the interaction of technologies and their role and purpose in the system
+As well as the softwares used under the Software heading above, Ebay uses and works with technologies such as:
 
+Utilities:
 
+- Paypal,
+As one means of financial transactions between products and users
+
+- Twilio,
+Alloweing software developer to programmatically make and recieve phone calls and text messages and other communication functions
+
+- Kissmetrics,
+To display eBays perfromance metrics
+
+- Keen,
+Platform that provides analytics
+
+- Flurry,
+To help measure, advertise and monetize ebays applications
+
+- BitBar,
+Helps test the app on android and IOS devices
+
+- UserTesting,
+Provide real users feedback as they use the website or app
+
+- CrowdFlower,
+Used to hire millions of people to collect, filter and enhace data
+
+DevOps:
+
+- Docker,
+A container platform for high velocity innocation
+
+- Jenkins,
+Integration Server
+
+- BrowserStack,
+Instant access to mobile and desktop browsers for testing
+
+- Pingdom,
+Uptime and Performance Monitoring
+
+- TeamCity,
+Continuous integration tool
+
+- Apache Mesos,
+Develops and runs resource-efficient distributed systems
+
+- AlertBot,
+Web and transaction monitoring
 
 #### Data Structure
 
-
-
-
-Describe (in general terms) the data structure of two-sided marketplace applications (e.g. eBay, Airbnb)
-6.0 to >5.0 pts
-HD
-Shows a complete understanding of the data structure of two sided marketplace apps
-
+Similar to the "Structural Aspects of a Relational Database" section above, two-sided market places store and retrieve data from Relation Databases, usually handled by a Relational Database Management System (RDMS). These databases can have relations to other databases making it easier to search and store data without having to repeat information. Each table is usually a representation of an Entity for the two-sided market place application. Each column also known as an attribute in the tables can be used to store other types of data for the specific entity. Each row is also known as a record shows all the data on one specific instance of and an entity that exists. These tables can be linked usually by a has_many, has_one, one_to_one, one_to_many and many_to_many relationship keeping data integrity amongst the data structure.
 
 #### Entities
 
-Identify entities which must be tracked by the application
-6.0 to >5.0 pts
-HD
-Identifies all significant entities, as well as additional entities
+Entities of eBay include:
 
-
+- User
+- Buyer
+- Seller
+- Feedback
+- Bid
+- Payment
+- Product offer
 
 #### Relationships and Associations between Entitites
-Identify relationships / associations between entities
-6.0 to >5.0 pts
-HD
-Identifies all relationships / associations in a sophisticated relational model
 
 
 
-  g. Design a schema using an Entity Relationship Diagram (ERD) appropriate for the database of this website (assuming a relational database model)	50-100 per part
+#### Entity Relationship Diagram (ERD)
 
-Design a schema appropriate for relational databases
-6.0 to >5.0 pts
-HD
-Designs a normalised schema (i.e. without data duplication) that facilitates extended functionality of the app
-
-
-
-
+![erb](./docs/erd.PNG)
 
   # ZIP THIS FILE
 
