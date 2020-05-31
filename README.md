@@ -437,11 +437,30 @@ Entities of eBay include:
 
 #### Relationships and Associations between Entitites
 
+- User
+  - Can have zero to many product offers
+  - Can have zero to many feedbacks
+  - Can have zero to many bids
 
+- Feedback
+  - Belongs to and depends on a User
+  - Belongs to and depends on a Prduct offer
+
+- Bid
+  - Belongs to and depends on a Product offer
+  - Belongs to and depends on a user
+
+- Payment
+  - Belongs to and depends on a Product offer
+
+- Product offer
+  - Belongs to and depends on a user
+  - Can have zero to many feedbacks
+  - Can have one to many pictures attached
+  - Can have zero to many bids
+  - Has one payment
 
 #### Entity Relationship Diagram (ERD)
 
-![erb](./docs/erd.PNG)
-
-  # ZIP THIS FILE
+![erb](./docs/erd2.PNG)
 
